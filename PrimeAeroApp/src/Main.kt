@@ -8,4 +8,5 @@ fun main() {
     // Print the person's details
     println("Name: ${person.name}, Age: ${person.age}")
     println("Name: ${person2.name}, Age: ${person2.age}")
+    println("hi")
 }
