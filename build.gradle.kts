@@ -5,5 +5,5 @@ plugins {
 }
 
 dependencies {
-    implementation("org.mongodb:mongodb-driver-kotlin-coroutine:5.2.1")
+    //implementation("org.mongodb:mongodb-driver-kotlin-coroutine:5.2.1")
 }
