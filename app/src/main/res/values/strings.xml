@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">PrimeAero</string>
+    <string name="logo_description">Logo for PrimeAero</string>"
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="call_button_description"> Call button for UAM flights</string>
 </resources>
