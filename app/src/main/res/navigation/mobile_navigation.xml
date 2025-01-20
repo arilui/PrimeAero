@@ -10,6 +10,9 @@
         android:name="com.example.primeaero.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
+    <action
+        android:id="@+id/action_home_to_uam"
+        app:destination="@id/navigation_uam" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +25,10 @@
         android:name="com.example.primeaero.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_uam"
+        android:name="com.example.primeaero.ui.uam.UAMFragment"
+        android:label="@string/title_uam"
+        tools:layout="@layout/fragment_uam" />
 </navigation>

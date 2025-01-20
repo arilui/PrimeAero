@@ -7,6 +7,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.fragment.findNavController
+import com.example.primeaero.R
 import com.example.primeaero.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -32,17 +34,12 @@ class HomeFragment : Fragment() {
         homeViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
-        return root
-    }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-
-        // Set up the click listener for the ImageButton
-        binding.imageButton2.setOnClickListener {
-            // Navigate to the desired destination
-            //findNavController().navigate(HomeFragmentDirections.actionHomeToCallFragment())
+        binding.callUAMButton.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_uam)
         }
+
+        return root
     }
 
     override fun onDestroyView() {

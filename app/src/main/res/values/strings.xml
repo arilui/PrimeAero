@@ -4,5 +4,9 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_uam">UAM</string>
     <string name="call_button_description"> Call button for UAM flights</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uam_fragment_text">UAM Fragment</string>
 </resources>

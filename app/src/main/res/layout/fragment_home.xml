@@ -49,7 +49,7 @@
         app:layout_constraintVertical_bias="0.735" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/callUAM_Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/call_button_description"
