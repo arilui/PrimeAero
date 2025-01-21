@@ -39,6 +39,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_home_to_uam)
         }
 
+        binding.settingsButton.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_settings)
+        }
+
         return root
     }
 

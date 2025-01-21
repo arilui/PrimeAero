@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">PrimeAero</string>
-    <string name="logo_description">Logo for PrimeAero</string>"
+
+    <!-- Titles -->
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_uam">UAM</string>
+    <string name="title_settings">Settings</string>
+
+    <!--Descriptions -->
+    <string name="logo_description">Logo for PrimeAero</string>"
     <string name="call_button_description"> Call button for UAM flights</string>
+    <string name="settings_button_description"> Settings button for UAM flights</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Fragment texts -->
     <string name="uam_fragment_text">UAM Fragment</string>
+    <string name="settings_fragment_text">Settings Fragment</string>"
 </resources>
