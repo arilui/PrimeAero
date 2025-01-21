@@ -43,6 +43,10 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_home_to_settings)
         }
 
+        binding.subscriptionButton.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_subscription)
+        }
+
         return root
     }
 

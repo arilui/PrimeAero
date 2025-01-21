@@ -73,4 +73,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         app:layout_constraintVertical_bias="0.167" />
+
+    <ImageButton
+        android:id="@+id/subscription_Button"
+        android:layout_width="123dp"
+        android:layout_height="131dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/subscription_button_description"
+        android:src="@drawable/subscription"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
 </androidx.constraintlayout.widget.ConstraintLayout>

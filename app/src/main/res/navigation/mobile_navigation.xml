@@ -16,6 +16,9 @@
     <action
         android:id="@+id/action_home_to_settings"
         app:destination="@id/navigation_settings" />
+    <action
+        android:id="@+id/action_home_to_subscription"
+        app:destination="@id/navigation_subscription" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -40,5 +43,11 @@
         android:name="com.example.primeaero.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings"/>
+
+    <fragment
+        android:id="@+id/navigation_subscription"
+        android:name="com.example.primeaero.ui.subscription.SubscriptionFragment"
+        android:label="@string/title_subscription"
+        tools:layout="@layout/fragment_subscription"/>
 
 </navigation>
