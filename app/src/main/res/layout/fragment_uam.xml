@@ -70,4 +70,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageButton
+        android:id="@+id/findVertiport"
+        android:layout_width="125dp"
+        android:layout_height="136dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/find_vertiport_button_description"
+        android:src="@drawable/findveriport"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597" />
+
+    <ImageButton
+        android:id="@+id/scheduleRide"
+        android:layout_width="123dp"
+        android:layout_height="120dp"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/schedule_ride_button_description"
+        android:src="@drawable/scheduleride"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
