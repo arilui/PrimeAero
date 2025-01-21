@@ -40,7 +40,19 @@
     <action
         android:id="@+id/action_home_to_call"
         app:destination="@id/navigation_call" />
+    <action
+        android:id="@+id/action_home_to_findVertiport"
+        app:destination="@id/navigation_findVertiport" />
+    <action
+        android:id="@+id/action_home_to_scheduleRide"
+        app:destination="@id/navigation_schedule_ride" />
 
+    <fragment
+        android:id="@+id/navigation_schedule_ride"
+        android:name="com.example.primeaero.ui.scheduleRide.ScheduleRideFragment"/>
+    <fragment
+        android:id="@+id/navigation_findVertiport"
+        android:name="com.example.primeaero.ui.findVertiport.FindVertiportFragment"/>
     <fragment
         android:id="@+id/navigation_settings"
         android:name="com.example.primeaero.ui.settings.SettingsFragment"
@@ -51,7 +63,6 @@
         android:name="com.example.primeaero.ui.callUAM.CallFragment"
         android:label="@string/title_call"
         tools:layout="@layout/fragment_call"/>
-
     <fragment
         android:id="@+id/navigation_subscription"
         android:name="com.example.primeaero.ui.subscription.SubscriptionFragment"

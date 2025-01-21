@@ -36,6 +36,12 @@ class UAMFragment : Fragment() {
         binding.callUAM.setOnClickListener {
             findNavController().navigate(R.id.action_home_to_call)
         }
+        binding.findVertiport.setOnClickListener{
+            findNavController().navigate(R.id.action_home_to_findVertiport)
+        }
+        binding.scheduleRide.setOnClickListener{
+            findNavController().navigate(R.id.action_home_to_scheduleRide)
+        }
 
         return root
     }
