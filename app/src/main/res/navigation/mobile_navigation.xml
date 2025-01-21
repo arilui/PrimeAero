@@ -37,12 +37,20 @@
         android:name="com.example.primeaero.ui.uam.UAMFragment"
         android:label="@string/title_uam"
         tools:layout="@layout/fragment_uam" />
+    <action
+        android:id="@+id/action_home_to_call"
+        app:destination="@id/navigation_call" />
 
     <fragment
         android:id="@+id/navigation_settings"
         android:name="com.example.primeaero.ui.settings.SettingsFragment"
         android:label="@string/title_settings"
         tools:layout="@layout/fragment_settings"/>
+    <fragment
+        android:id="@+id/navigation_call"
+        android:name="com.example.primeaero.ui.callUAM.CallFragment"
+        android:label="@string/title_call"
+        tools:layout="@layout/fragment_call"/>
 
     <fragment
         android:id="@+id/navigation_subscription"
