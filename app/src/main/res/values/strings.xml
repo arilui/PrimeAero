@@ -18,6 +18,7 @@
     <string name="subscription_button_description">Subscription button</string>
     <string name="find_vertiport_button_description">Find Vertiport button</string>
     <string name="schedule_ride_button_description">Schedule Ride button</string>
+    <string name="find_vertiport_map_description">Find Vertiport Map</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

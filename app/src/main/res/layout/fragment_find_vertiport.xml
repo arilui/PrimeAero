@@ -4,4 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0B0B0B"
-    tools:context=".ui.findVertiport.FindVertiportFragment"/>
+    tools:context=".ui.findVertiport.FindVertiportFragment">
+
+    <!--TODO: implement Google Maps API and location services permissions -->
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:contentDescription="@string/find_vertiport_map_description"
+        android:layout_width="match_parent"
+        android:layout_height="502dp"
+        android:background="@color/white"
+        android:visibility="visible" />
+</FrameLayout>
